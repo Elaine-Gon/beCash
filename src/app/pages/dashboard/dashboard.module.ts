@@ -1,3 +1,4 @@
+import { SummaryModule } from './../../components/summary/summary.module';
 import { HeaderModule } from './../../components/header/header.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -13,7 +14,8 @@ import { DashboardComponent } from './dashboard.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    HeaderModule
+    HeaderModule,
+    SummaryModule
   ],
   exports: [
     DashboardComponent
