@@ -1,3 +1,4 @@
+import { TransctionsTableModule } from './../../components/transctions-table/transctions-table.module';
 import { SummaryModule } from './../../components/summary/summary.module';
 import { HeaderModule } from './../../components/header/header.module';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { DashboardComponent } from './dashboard.component';
     CommonModule,
     DashboardRoutingModule,
     HeaderModule,
-    SummaryModule
+    SummaryModule,
+    TransctionsTableModule
   ],
   exports: [
     DashboardComponent
