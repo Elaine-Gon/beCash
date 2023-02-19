@@ -1,0 +1,22 @@
+<main>
+  <button class="close" (click)="cancel()"><img src="/assets/image/close.svg" alt="close"/></button>
+  <div class="modal" mat-dialog-actions>
+    <h1>Cadastrar transação</h1>
+    <form>
+      <input placeholder="Nome"/>
+      <input placeholder="Preco"/>
+      <div class="box-buttons">
+        <button class="buttons">
+          <img src="/assets/image/income.svg" alt=""/>
+          Entrada
+        </button>
+        <button  class="buttons">
+          Saida
+          <img src="/assets/image/outcome.svg" alt=""/>
+        </button>
+      </div>
+      <input placeholder="Categoria"/>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</main>

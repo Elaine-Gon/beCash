@@ -14,7 +14,7 @@ main {
     padding: 2.5rem 3.2rem;
     margin-top: -9rem;
     border-radius: .5rem;
-    background: $color-white;
+    background: $shape;
 
     header {
       display: flex;
@@ -40,7 +40,7 @@ main {
     background: $color-green;
 
     p, strong {
-      color: $color-white;
+      color: $shape;
     }
   }
 }

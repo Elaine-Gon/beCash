@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { TransctionsTableComponent } from './transctions-table.component';
 
 
-
 @NgModule({
   declarations: [
     TransctionsTableComponent
