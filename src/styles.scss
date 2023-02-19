@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-$background:  #E5E5E5;
+$background:  #F0F2F5;
 $blue-ligth: #3FB7FB;
 $blue-dark: #00669F;
-$color-white: #FFFFFF;
+$shape: #FFFFFF;
 $color-green: #33CC95;
 $color-gray: #D7D7D7;
 $text-ligth: #969CB2;
 $text-dark: #363F5F;
-
+$color-input: #E7E9EE;
 
 $typography: 'Poppins', sans-sarif;
 
@@ -56,4 +56,20 @@ a {
   cursor: not-allowed;
 }
 
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 
+  .mat-dialog-container {
+    width: 100%;
+    max-width: 576px;
+    padding: 48px 48px;
+    background: $background;
+
+    .close {
+      border: none;
+      background-color: transparent;
+    }
+  }
+}

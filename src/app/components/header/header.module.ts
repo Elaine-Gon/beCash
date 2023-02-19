@@ -1,3 +1,5 @@
+import { MatDialogModule } from '@angular/material/dialog';
+import { NewTransactionModalModule } from 'src/app/components/new-transaction-modal/new-transaction-modal.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header.component';
@@ -9,7 +11,9 @@ import { HeaderComponent } from './header.component';
     HeaderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatDialogModule,
+    NewTransactionModalModule
   ],
   exports: [
     HeaderComponent
